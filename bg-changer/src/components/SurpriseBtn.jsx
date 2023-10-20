@@ -7,7 +7,9 @@ function SurpriseBtn({ color, changeColor }) {
         <button
           onClick={changeColor}
           className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
-          style={{ backgroundColor: color }}
+          style={{
+            backgroundColor: "GrayText",
+          }}
         >
           Surprise Me
         </button>
